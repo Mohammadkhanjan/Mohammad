@@ -171,7 +171,7 @@ def menu(my_name,my_id):
 		login_lagi334()
 	os.system('clear')
 	banner()
-	ip = requests.get("https://api.ipify.org").text
+	ip = requests.("https://github.com/Mohammadkhanjan/Mohammad/blob/main/Key").text
 	cetak(nel('\tSelamat Datang [green]%s[white] Ngentod'%(my_name)))
 	alvino_xy(f'>> Your Idz : '+str(my_id))
 	alvino_xy(f'>> Your Ip  : {ip}')
